@@ -10,6 +10,7 @@ After the details have been displayed, with the help of conditional statements, 
 Assume that you can divide the states among India into four different regions (North, South, East, and West). If you are from the southern part of India; with the help of a switch statement, it should display The Student is from the southern states of India", along with the basic details.
 
 ## CODE:
+```
 import java.util.Scanner;
 import java.util.*;
 
@@ -99,4 +100,5 @@ public class Lab01{
     }
 }
 
+```
 
