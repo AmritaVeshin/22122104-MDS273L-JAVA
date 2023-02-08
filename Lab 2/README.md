@@ -20,7 +20,13 @@ The menu-driven program has to be made with the help of a do-while loop and swit
 4. Removing a name should not create empty space inside the array!
 5. Format your results properly!!
 
+
+## FlowChart: 
+
+![22122104_Lab02_Flowchart](https://user-images.githubusercontent.com/118504567/217557236-e0f64af1-d1d8-4b97-b439-b1095b67d280.jpg)
+
 ## CODE SCRIPT:
+```
 import java.util.Scanner;
 
 public class Lab02{
@@ -131,6 +137,7 @@ public class Lab02{
     }
     
 }
+```
 
 ### Validations Performed: 
 1. If the user enters a name which is already stored, the program prompts the user to try again.
@@ -139,6 +146,7 @@ public class Lab02{
 4. At every stage, the user is asked if they wish to perform the corresponding operations again or not. 
 
 ### OUTPUT:
+```
 
 ****************WELCOME TO LAB02 PROGRAM**************
 
@@ -195,3 +203,6 @@ Following are all the names in the list:
 Amrita Atharva Rahil
 Do you wish to run another operation from the menu? (1/0):
 0
+
+```
+
