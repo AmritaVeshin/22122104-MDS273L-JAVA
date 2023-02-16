@@ -16,6 +16,10 @@ From the user-given array.
 
 The program should have a minimum of 3 functions apart from the main function; each of the functions implements the Mean, Median, and Mode computation by accepting the array user has entered as a parameter and returning the value as a result. From the main method, you will display the result.
 
+### FLOWCHART: 
+![22122104_Lab03_Flowchart](https://user-images.githubusercontent.com/118504567/219256771-ce8a41b0-ef3b-41b8-a4d2-c265ca6a14aa.jpg)
+
+
 ### CODE SCRIPT:
 ```
 import java.util.Scanner;
