@@ -24,6 +24,8 @@ Your menu will have the following operations once the customer is created
 * To print account summary
 
 ### FLOWCHART: 
+![22122104_Lab04_Flowchart](https://user-images.githubusercontent.com/118504567/220610603-09a08ce6-6920-4fc1-a501-e9672e0f5f5c.jpg)
+
 
 ### CODE: 
 ```
