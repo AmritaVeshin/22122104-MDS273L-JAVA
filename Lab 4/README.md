@@ -9,12 +9,14 @@ You can ONLY have the below variables as global variables
 * Account Number
 * Account Holder Name
 * Account Balance
+
 You MUST have the below as functions
 * To initialize the customer
 * To deposit money
 * To withdraw money
 * To print the transactions
 * To print account summary
+
 Your menu will have the following operations once the customer is created
 * To deposit money
 * To withdraw money
@@ -22,6 +24,8 @@ Your menu will have the following operations once the customer is created
 * To print account summary
 
 ### FLOWCHART: 
+![22122104_Lab04_Flowchart](https://user-images.githubusercontent.com/118504567/220610603-09a08ce6-6920-4fc1-a501-e9672e0f5f5c.jpg)
+
 
 ### CODE: 
 ```
