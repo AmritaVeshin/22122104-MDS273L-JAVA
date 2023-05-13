@@ -13,7 +13,8 @@ Once the overall summary statistics have been calculated, identify the summary s
 Present your results in the appropriate format and write the results in a file.
 
 ## FLOWCHART:
-![Lab07_Flowchart](https://github.com/AmritaVeshin/22122104-MDS273L-JAVA/assets/118504567/3110b3df-163c-442f-95aa-cb658a15d9ac)
+![Lab07_Flowchart](https://github.com/AmritaVeshin/22122104-MDS273L-JAVA/assets/118504567/eb23cd57-acf3-4ea3-825e-1c43c2d47296)
+
 
 
 
