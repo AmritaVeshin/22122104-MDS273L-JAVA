@@ -30,6 +30,8 @@ __Note:__ Make use of functions to implement the menu options
 * In case there are no Students added in the system, the user is given the prompt to add a Student first.
 
 ## FLOWCHART: 
+![Lab05_Flowchart](https://github.com/AmritaVeshin/22122104-MDS273L-JAVA/assets/118504567/0334de24-10c4-4497-a2c5-7d7e270c443a)
+https://app.code2flow.com/LoUmyI3A4Suy.png
 
 ## CODE:
 ```
