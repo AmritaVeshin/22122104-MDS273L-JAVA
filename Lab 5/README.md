@@ -168,3 +168,4 @@ public class Lab05{
 ```
 
 ## OUTPUT: 
+![Lab05 Output](https://github.com/AmritaVeshin/22122104-MDS273L-JAVA/assets/118504567/18544018-807a-41c5-b95d-546eda2b8ae3)
