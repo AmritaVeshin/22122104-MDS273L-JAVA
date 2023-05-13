@@ -12,15 +12,19 @@ public class Lab07{
         float mean = sum/(data.length);
         return mean;
     }
-
     public static float median(float[] data){
         float[] newdata = data;
         Arrays.sort(newdata);
-        float num1 = newdata[data.length/2];
-        float num2 = newdata[(data.length/2)+1];
-        float median = (num1 + num2)/2 ;
+        int n = newdata.length;
+        float median;
+        if (n % 2 == 0) {
+            median = (newdata[n/2-1] + newdata[n/2]) / 2.0f;
+        } else {
+            median = newdata[n/2];
+        }
         return median;
     }
+    
 
     static float mode(float data[]) {
         float maxValue = 0;
@@ -53,7 +57,7 @@ public class Lab07{
     }
 
     static float minimum(float[] data){
-        float min = mean(data);
+        float min = data[0];
         for(int i = 0; i<data.length; i++){
             if(data[i]<min){
                 min = data[i];
@@ -61,7 +65,7 @@ public class Lab07{
         }
         return min;
     }
-
+    
     public static void main(String[] args){
         float[] sepallength = new float[150];
         float[] sepalwidth = new float[150];
@@ -164,32 +168,6 @@ public class Lab07{
         }catch(Exception exception){
             System.out.println(exception.getLocalizedMessage());
         }
-        // try {
-        //     File file= new File("IrisData_StatSummary.txt");
-        //     if(file.exists()){
-        //         System.out.println("File Exists");
-        //     }else{
-        //         System.out.println("File is Missing");
-        //         if(file.createNewFile()){
-        //             System.out.println("File has been created successfully!");
-        //         }else{
-        //             System.out.println("File Creation Error");
-        //         }
-        //     }
-        
-        //     if(file.canWrite()){
-        //         FileWriter writeobj=new FileWriter(file);
-        //         String a="======================================================================\n";
-        //         String b="                       FIVE POINT SUMMARY                         \n";
-        //         String c="======================================================================\n";
-        //         String d="ITEM            MEAN       MEDIAN       MODE      MINIMUM      MAXIMUM  \n";
-        //         String e="______________________________________________________________________\n"; 
-                
-        //         writeobj.write(a);
-        //         writeobj.close();
-        //     }
-        // } catch (Exception e) {
-        //     // TODO: handle exception
-        // }
+       
     }
 }
