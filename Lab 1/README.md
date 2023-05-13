@@ -105,4 +105,40 @@ public class Lab01{
 }
 
 ```
+## OUTPUT:
+```
+WELCOME TO JAVA LAB-01 PROGRAM                
+__________________________________________________________________
+
+                 Christ University Pune Lavasa               
+
+---------------------Student Details------------------------
+
+Input Section-----------------------------------------------
+
+Enter your details below: 
+
+Name: John Smith
+Register Number: 1234
+Class: First Year
+Age: 18
+Gender (m/f): m
+State: Uttar Pradesh
+UG CGPA: 8.5
+
+Output Section-----------------------------------------------
+
+Name: John Smith
+Register Number: 1234
+Class: First Year
+Age: 18
+Gender: MALE
+State: Uttar Pradesh
+Region: North
+The student is from the northern states of India.
+UG CGPA: 8.5
+
+************THANKYOU FOR USING THE PROGRAM**************
+
+```
 
